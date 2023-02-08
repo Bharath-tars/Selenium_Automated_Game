@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 
-selenium_dir = r"\Users\S Bharath\chromedriver_win32.exe"
+selenium_dir = r""
 driver = webdriver.Chrome(executable_path=selenium_dir)
 driver.get("https://orteil.dashnet.org/")
 events = driver.find_element(By.XPATH,'//*[@id="Wgames"]/div[3]/div[2]/a')
